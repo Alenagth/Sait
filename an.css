@@ -1,0 +1,34 @@
+.k1{ width: 250px; height: 250px; border: 2px solid; background-color: #555E4D;}
+.k1:hover{ width: 150px; height: 150px;
+    transform: rotate(45deg); transition: all 3s ease 0.5s;}
+.k2{ width: 250px; height: 250px; border: 2px solid; background-color: #555E4D;}
+.k2:hover{margin-left: 100px; transition: all 3s ease 0.5s;}
+.k3{ width: 250px; height: 250px; border: 2px solid; background-color: #555E4D;}
+.k3:hover{width: 350px; height: 350px; transition: all 3s ease 0.5s;}
+.k4{width: 400px; height: 200px; border: 2px solid;}
+.k21{width: 100px; height: 100px; border: 2px solid;
+    margin-top: 50px; margin-left: 50px; float: left; position: relative;
+    background-color: #555E4D; transition: all 3s ease 0.5s;}
+.k21:hover{transform: translateX(150px);}
+.k22{width: 100px; height: 100px; border: 2px solid;
+        margin-top: 50px; margin-left: 100px; float: left;
+        background-color: #9E9D7E;}
+
+.kv{margin-left: 25%; width: 250px; height: 250px;
+    border: 2px solid; background-color: #555E4D;position: absolute;z-index: 100;}
+.kv1{position: absolute; width: 250px; height: 250px;
+    background-color: #555E4D;}
+    
+.kv2{position: absolute; width: 250px; height: 250px;
+        background-color: #555E4D;}
+
+.kv3{position: absolute; width: 250px; height: 250px;
+            background-color: #555E4D;}
+    
+.kv4{position: absolute; width: 250px; height: 250px;
+                background-color: #555E4D;}
+
+.kv:hover  .kv1{transform: translateX(300px);  transition: all 3s ease 0.5s;}
+.kv:hover  .kv2{transform: translateY(300px);  transition: all 3s ease 0.5s;}
+.kv:hover  .kv3{transform: translateX(-300px);  transition: all 3s ease 0.5s;}
+.kv:hover  .kv4{transform: translateY(-300px);  transition: all 3s ease 0.5s;}
